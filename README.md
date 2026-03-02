@@ -23,9 +23,9 @@ The reason I chose these two news channels specifically is because N1 is usually
    - rts_latin - cleaned articles from RTS with data in Serbian latin script instead of Serbian cyrilics
 * data/test
    - random_headlines.csv - 570 randomly sampled headlines from n1 dataset that I manually labeled as related and undrelated to the protests for validation
-*data/related_unrelated
+* data/related_unrelated
    - gpt_labeled_headlines_related_unrelated.csv file that includes the result of gpt API labeling
-*event
+* data/event
    - events_extracted_n1.csv file containing events extracted from N1 headlines
    - events_extracted_rts.csv file containing events extracted from N1 headlines
    - events_extracted_manually_labeled.csv file containing events extracted from headlines and my manual check to see if the event extraction was accurate
