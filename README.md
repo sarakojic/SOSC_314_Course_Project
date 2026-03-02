@@ -1,4 +1,16 @@
 # Serbian News Channel Analysis from Nov 1st 2024 to January 2026
+## Problem setup
+The goal of this projet is to analyze the way in which two different news chnannnels in Serbia report on the protests.
+
+The two news channnels chosen for comparison are N1 [https://n1info.rs/] and RTS [https://www.rts.rs/lat.html?print=true].
+
+The reason I chose these two news channels specifically is because N1 is usually considered as the only independent news source in Serbia, while RTS is a government-ran news channel
+
+### Project tasks
+1. analyze common words used by RTS and N1
+2. compare the frequency of the published articles related to the protest over months
+3. analyze different event types and their occurances over months in the news articles published by RTS and N1
+
 
 ## Files structure
 1. Data - csv fils containing news articles
