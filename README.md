@@ -18,6 +18,8 @@ The reason I chose these two news channels specifically is because N1 is usually
    - n1.csv - all of the collected articles from N1 news channel (34673 articles)
    - rts.csv - all of the collected articles from RTS news channel (3367 articles)
    - n1_cleaned_with_scores - dataset with results after applying a model to determine if articles are related or unrelated to the protests (around 34000 articles)
+   - n1_lemmatized.csv - includes spacy lemmatization
+   - rts_lemmatized.csv - includes spacy lemmatization
 * data/cleaned
    - n1_cleaned - deleted duplicates and articles before 31st October 2024 (around 34673 articles)
    - rts_latin - cleaned articles from RTS with data in Serbian latin script instead of Serbian cyrilics
@@ -30,6 +32,9 @@ The reason I chose these two news channels specifically is because N1 is usually
    - events_extracted_rts.csv file containing events extracted from N1 headlines
    - events_extracted_manually_labeled.csv file containing events extracted from headlines and my manual check to see if the event extraction was accurate
    - events_extracted_sample_test.csv file containing a sample of events extracted from N1 headlines I used for manually testing
+* data/word_counts
+   - n1_word_count.csv file containing word counts of N1 headlines
+   - rts_word_count.csv files containing word counts of RTS headlines
 3. Code - contains code used for the analysis
    - News_Data_Scraping.ipynb - includes the code used for web scraping both websites
    - Data_Cleaning.ipynb - includes the code used for cleaning the datasets
