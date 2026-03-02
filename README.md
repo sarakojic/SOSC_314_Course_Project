@@ -13,23 +13,26 @@ The reason I chose these two news channels specifically is because N1 is usually
 
 
 ## Files structure
-1. Data - csv fils containing news articles
+1. data - csv fils containing news articles
+
    - n1.csv - all of the collected articles from N1 news channel (34673 articles)
    - rts.csv - all of the collected articles from RTS news channel (3367 articles)
-   - n1_cleaned - deleted duplicates and articles before 31st October 2024 (around 34673 articles)
    - n1_cleaned_with_scores - dataset with results after applying a model to determine if articles are related or unrelated to the protests (around 34000 articles)
+   1.1. data/cleaned
+   - n1_cleaned - deleted duplicates and articles before 31st October 2024 (around 34673 articles)
    - rts_latin - cleaned articles from RTS with data in Serbian latin script instead of Serbian cyrilics
+    1.2. data/test
    - random_headlines.csv - 570 randomly sampled headlines from n1 dataset that I manually labeled as related and undrelated to the protests for validation
    - https://duke.box.com/s/inv45b53h9czkrgjto91ath2ifx2manm link to access the dataset containing full text of n1 articles
    - gpt_result.csv file that includes the result of gpt API labeling
    - events_extracted.csv file containing events extracted from headlines
    - events_extracted_correct.csv file containing events extracted from headlines and my manual check to see if the event extraction was accurate
-2. Code - contains code used for the analysis
+3. Code - contains code used for the analysis
    - News_Data_Scraping.ipynb - includes the code used for web scraping both websites
    - Data_Cleaning.ipynb - includes the code used for cleaning the datasets
    - Tokenization.ipynb - Inlcudes tokenization, lemmatization, and visualization of word count
    - Scraping_News_Articles_Full_Text.ipynb - Includes the code for scraping full texts of articles
    - GPT_API_labeling.ipynb - Code that uses GPT API for labeling headlines as related and unrelated to the protests
    - Event_Extraction.ipynb - Code that uses GPT API for event extraction
-3. Test - contains code used for trying out different functions
+4. Test - contains code used for trying out different functions
 
